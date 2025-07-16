@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// SCP Horror theme colors
+				scp: {
+					black: '#2C2C2C',
+					red: '#8B0000',
+					paper: '#FFE4B5',
+					green: '#00FF00',
+					amber: '#FFA500',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -88,7 +96,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glitch': 'glitch 0.3s infinite',
+				'flicker': 'flicker 1.5s infinite',
+				'typewriter': 'typewriter 3s steps(30, end)',
 			}
 		}
 	},
